@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, maximum-scale=1" />
+    <script
+      src="https://kit.fontawesome.com/a93703289b.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Hosein Kasiri</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Varela+Round&display=swap");
+    </style>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <span class="loader"></span>
+
+    <header class="header">
+      <div class="header-info">
+        <h2>Hi! My name is</h2>
+        <h1 class="name">Hosein Kasiri</h1>
+        <h2 id="typing-text"></h2>
+        <div class="social-logo">
+          <a
+            href="https://github.com/HoseinKw"
+            style="text-decoration: none"
+            target="_blank"
+          >
+            <img src="./assets/images/github-logo.png" alt="github-logo" />
+          </a>
+          <a
+            href="https://www.linkedin.com/in/hoseinkasiri/"
+            style="text-decoration: none"
+            target="_blank"
+          >
+            <img src="./assets/images/linkedin-logo.png" alt="linkedin-logo" />
+          </a>
+          <a
+            href="https://www.instagram.com/Hosein.kw/"
+            style="text-decoration: none"
+            target="_blank"
+          >
+            <img
+              src="./assets/images/Instagram-logo.png"
+              alt="instagram-logo"
+            />
+          </a>
+          <a
+            href="https://t.me/HoseinKasiri"
+            style="text-decoration: none"
+            target="_blank"
+          >
+            <img src="./assets/images/Telegram-logo.png" alt="telegram-logo" />
+          </a>
+        </div>
+        <a href="#about-me">
+          <button class="abt-button">
+            About me <span class="arrow-down"></span>
+          </button>
+        </a>
+      </div>
+      <nav class="navbar">
+        <div class="navbar-logo">
+          <img src="./assets/images/HOKA2W.png" alt="Logo" />
+        </div>
+        <ul class="navbar-options">
+          <li><a href="#about-me">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact-me">Contact</a></li>
+        </ul>
+        <div class="toggle-btn">
+          <i class="fa-solid fa-bars" id="openMenu"></i>
+          <i class="fa-solid fa-times" id="closeMenu"></i>
+        </div>
+        <div class="dropdown-menu">
+          <ul>
+            <li><a href="#about-me">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact-me">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <div class="about-section" id="about-me">
+      <h1 class="title">ABOUT ME</h1>
+      <br />
+      <p>
+        My name is Hosein, and at the age of 21, I'm a self-motivated Full-Stack
+        and junior developer. For the past year, I have been passionately
+        pursuing my programming journey, constantly seeking opportunities to
+        improve and expand my skills in the realm of web development.<br />Ever
+        since I can remember, I have been captivated by the world of technology.
+        From an early age, I found myself engrossed in computers, fascinated by
+        their ability to transform ideas into reality. It was this curiosity
+        that propelled me towards the realm of programming, and I haven't looked
+        back since.
+      </p>
+    </div>
+    <div class="skills-section" id="skills">
+      <h1 class="title">SKILLS</h1>
+      <br />
+      <div class="skill-area">
+        <div class="skill">
+          <div class="skill-title">Python</div>
+          <div class="skill-bar"></div>
+          <div class="python skill-fill">
+            <span class="skill-percent" id="progress-text-1"></span>
+          </div>
+        </div>
+      </div>
+      <div class="skill-area">
+        <div class="skill">
+          <div class="skill-title">Django</div>
+          <div class="skill-bar"></div>
+          <div class="django skill-fill">
+            <span class="skill-percent" id="progress-text-2"></span>
+          </div>
+        </div>
+      </div>
+      <div class="skill-area">
+        <div class="skill">
+          <div class="skill-title">HTML</div>
+          <div class="skill-bar"></div>
+          <div class="html skill-fill">
+            <span class="skill-percent" id="progress-text-3"></span>
+          </div>
+        </div>
+      </div>
+      <div class="skill-area">
+        <div class="skill">
+          <div class="skill-title">CSS</div>
+          <div class="skill-bar"></div>
+          <div class="css skill-fill">
+            <span class="skill-percent" id="progress-text-4"></span>
+          </div>
+        </div>
+      </div>
+      <div class="skill-area">
+        <div class="skill">
+          <div class="skill-title">JavaScript</div>
+          <div class="skill-bar"></div>
+          <div class="js skill-fill">
+            <span class="skill-percent" id="progress-text-5"></span>
+          </div>
+        </div>
+      </div>
+      <div class="skill-area">
+        <div class="skill">
+          <div class="skill-title">React.Js</div>
+          <div class="skill-bar"></div>
+          <div class="react skill-fill">
+            <span class="skill-percent" id="progress-text-6"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="portfolio-section" id="portfolio">
+      <h1 class="title">PORTFOLIO</h1>
+      <br />
+      <swiper-container
+        class="mySwiper"
+        pagination="true"
+        pagination-clickable="true"
+        navigation="true"
+        space-between="30"
+        centered-slides="true"
+        autoplay-delay="2500"
+        autoplay-disable-on-interaction="false"
+        loop="true"
+      >
+        <swiper-slide
+          ><a href="#"><img src="assets/images/project1.png" alt="" /></a
+        ></swiper-slide>
+        <swiper-slide
+          ><a href="#"><img src="assets/images/project2.png" alt="" /></a
+        ></swiper-slide>
+        <swiper-slide
+          ><a href="#"><img src="assets/images/project3.png" alt="" /></a
+        ></swiper-slide>
+        <swiper-slide
+          ><a href="#"><img src="assets/images/project4.png" alt="" /></a
+        ></swiper-slide>
+        <swiper-slide
+          ><a href="#"><img src="assets/images/project5.png" alt="" /></a
+        ></swiper-slide>
+      </swiper-container>
+    </div>
+    <div class="contact-section" id="contact-me">
+      <section id="contact">
+        <h1 class="title">Contact</h1>
+
+        <div class="contact-wrapper">
+          <div class="direct-contact-container">
+            <ul class="contact-list">
+              <li class="list-item">
+                <i class="fa fa-map-marker fa-2x"
+                  ><span class="contact-text place">Tehran , Iran</span></i
+                >
+              </li>
+
+              <li class="list-item">
+                <i class="fa fa-phone fa-2x"
+                  ><span class="contact-text phone"
+                    ><a href="tel:+989195260796" title="Give me a call"
+                      >(+98) 9195260796
+                    </a></span
+                  ></i
+                >
+              </li>
+
+              <li class="list-item">
+                <i class="fa fa-envelope fa-2x"
+                  ><span class="contact-text gmail"
+                    ><a
+                      href="mailto:Kasiri.dev@gmail.com"
+                      title="Send me an email"
+                      >Kasiri.Dev@gmail.com</a
+                    ></span
+                  ></i
+                >
+              </li>
+            </ul>
+
+            <hr />
+            <ul class="social-media-list">
+              <li>
+                <a
+                  href="https://github.com/HoseinKw"
+                  target="_blank"
+                  class="contact-icon"
+                  title="GitHub"
+                >
+                  <i class="fa fa-github" aria-hidden="true"></i
+                ></a>
+              </li>
+              <li>
+                <a
+                  href="https://www.linkedin.com/in/hoseinkasiri/"
+                  target="_blank"
+                  class="contact-icon"
+                  title="LinkedIn"
+                >
+                  <i class="fa fa-linkedin" aria-hidden="true"></i
+                ></a>
+              </li>
+              <li>
+                <a
+                  href="https://www.instagram.com/Hosein.kw/ "
+                  target="_blank"
+                  class="contact-icon"
+                  title="Instagram"
+                >
+                  <i class="fa fa-instagram" aria-hidden="true"></i
+                ></a>
+              </li>
+              <li>
+                <a
+                  href="https://t.me/HoseinKasiri"
+                  target="_blank"
+                  class="contact-icon"
+                  title="Telegram"
+                >
+                  <i class="fa fa-telegram" aria-hidden="true"></i
+                ></a>
+              </li>
+            </ul>
+            <hr />
+            <div class="copyright">
+              &copy;2023 ALL OF THE RIGHTS RESERVED <br />
+              Made with 💜 by Hosein Kasiri (HOKA)
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <script src="main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-element-bundle.min.js"></script>
+  </body>
+</html>
