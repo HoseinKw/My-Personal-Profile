@@ -22,6 +22,8 @@ continue to learn and grow, I'll be updating and refining this project to make
 it even better. <br> Thank you for being a part of this exciting moment with me, and
 I look forward to sharing more projects in the future. Happy exploring! 🚀
 
+---
+
 <p align="center">
   <b>Give my project a ⭐️ if you found it Interesting!</b>
 </p>
